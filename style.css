@@ -1,13 +1,11 @@
 body {
     font-family: Roboto;
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 p {
-    margin: 0;
-}
-
-ul {
     margin: 0;
 }
 
@@ -23,6 +21,55 @@ img {
 .front,
 .footer {
     background: #1F2937;
+}
+
+.header {
+    height: 48px;
+    background-color: darkolivegreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer {
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.front {
+    display: flex;
+}
+
+.informations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+}
+
+.recrutment {
+    display: flex;
+}
+
+.blue-frame {
+    padding: 50px;
 }
 
 .quote-block {
