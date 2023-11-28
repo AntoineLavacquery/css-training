@@ -7,27 +7,34 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+
     <div class="header">
-      <p class="main" id="logo">Header Logo</p>
-      <ul>
-        <li><a href="" class="secondary">header link one</a></li>
-        <li><a href="" class="secondary">header link two</a></li>
-        <li><a href="" class="secondary">header link three</a></li>
-      </ul>
-    </div>
-    <div class="front">
-      <div class="left">
-        <p class="main" id="big">This website is awesome</p>
-        <p class="secondary">
-          This website has some subtext that goes here under the main title.
-          It's a smaller font and the color is lower contrast.
-        </p>
-        <button>Sign up</button>
+      <div class="header-content">
+        <p class="main" id="logo">Header Logo</p>
+        <ul>
+          <li><a href="" class="secondary">header link one</a></li>
+          <li><a href="" class="secondary">header link two</a></li>
+          <li><a href="" class="secondary">header link three</a></li>
+        </ul>
       </div>
-      <img src="img/fjord.jpg" alt="canadian fjord" id="fjord"/>
     </div>
+
+    <div class="front">
+      <div class="front-content">
+        <div class="front-left">
+          <h1>This website is awesome</h1>
+          <p class="secondary">
+            This website has some subtext that goes here under the main title.
+            It's a smaller font and the color is lower contrast.
+          </p>
+          <button>Sign up</button>
+        </div>
+        <img src="img/fjord.jpg" alt="canadian fjord" class="front-right"/>
+      </div>
+    </div>
+
     <div class="informations">
-      <p class="info-header">Some random information.</p>
+      <h2>Some random information.</h2>
       <div class="container">
         <div class="thumbnail">
           <img src="img/house-1.jpg" alt="a house in fjord landscape" />
@@ -47,27 +54,32 @@
         </div>
       </div>
     </div>
-    <div class="quote-block">
-      <p class="quote-text">
-        This is an inspiring quote, or a testimonial from a customer. Maybe it's
-        juste filing up space, or maybe people will actually read it. Who knows?
-        All I know is that it looks nice.
-      </p>
-      <p>- Thor, God of Thunder</p>
-    </div>
-    <div class="bottom">
-      <div class="blue-frame">
-        <div class="recrutment">
-          <div class="message">
-            <p class="main">Call to action! It's time!</p>
-            <p class="secondary">
-              Sign up for our product by clicking that button right over there!
-            </p>
-          </div>
-          <button>Sign up</button>
-        </div>
+
+    <div class="quote">
+      <div class="quote-content">
+        <p class="quote-text">
+          This is an inspiring quote, or a testimonial from a customer. Maybe it's
+          just filing up space, or maybe people will actually read it. Who knows?
+          All I know is that it looks nice.
+        </p>
+        <p class="signature">- Thor, God of Thunder</p>
       </div>
     </div>
-    <div class="footer"><p class="secondary">Copyright c The Odin Project 2021</p></div>
+
+    <div class="bottom">
+      <div class="recrutment-box">
+        <div class="text-box">
+          <p class="main">Call to action! It's time!</p>
+          <p class="secondary">
+            Sign up for our product by clicking that button right over there!
+          </p>
+        </div>
+        <button>Sign up</button>
+    </div>
+    </div>
+
+    <div class="footer">
+      <p class="secondary">Copyright c The Odin Project 2021</p>
+    </div>
   </body>
 </html>
