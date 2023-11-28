@@ -1,3 +1,16 @@
+body {
+    font-family: Roboto;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+}
+
 #fjord {
     width: 400px;
 }
@@ -5,3 +18,52 @@
 img {
     width: 80px;
 }
+
+.header,
+.front,
+.footer {
+    background: #1F2937;
+}
+
+.quote-block {
+    background: #e5e7eb;
+}
+
+.info-header,
+.quote-text {
+    color: #1f2937;
+    font-size: 36px;
+}
+
+.quote-text {
+    font-weight: lighter;
+    font-style: italic;
+
+}
+
+.info-header {
+    font-weight: bolder;
+}
+
+.main {
+    color: #f9faf8;
+}
+
+#big {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+#logo {
+    font-size: 24px;
+}
+
+.secondary {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.recrutment {
+    background: #3882f6;
+}
+
